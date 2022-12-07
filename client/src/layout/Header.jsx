@@ -19,9 +19,12 @@ const Header = () => {
 
         <span className="navbar-text">
          
-          <Link to="/"  style={{color: "white"}}>Home </Link> &nbsp;
-          <Link to="/profile"  style={{color: "white"}}>Profile </Link> &nbsp;
+          <Link to="/"  style={{color: "white",textDecoration: "none"}}>Home </Link> &nbsp;
+          <Link to="/profile"  style={{color: "white",textDecoration: "none"}}>Profile </Link> &nbsp;
         </span>
+
+
+
           <li className="nav-item">
             {/* <Link to="/register">Register </Link>  */}
           </li>
@@ -29,9 +32,9 @@ const Header = () => {
             {/* <a className="nav-link" href="#">Pricing</a> */}
           </li>
         </ul>
-        <span className="navbar-text">
-          <Link to="/register"  style={{color: "white"}}>Register </Link> &nbsp;
-          <Link to="/login"  style={{color: "white"}}>Login </Link> &nbsp;
+        <span className="navbar-text float-right">
+          <Link to="/register"  style={{color: "white",textDecoration: "none" }}>Register </Link> &nbsp;
+          <Link to="/login"  style={{color: "white",textDecoration: "none"}}>Login </Link> &nbsp;
         </span>
       </div>
     </nav>
