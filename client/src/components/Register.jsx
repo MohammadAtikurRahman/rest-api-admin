@@ -41,7 +41,7 @@ const Register = () => {
   return (
 
 
-    <div className="container border rounded p-3 " style={{ width: "350px",marginTop:"200px" }}>
+    <div className="container border rounded p-3 " style={{ width: "350px", marginTop: "200px" }}>
 
 
       <h3>Registration</h3>
@@ -49,7 +49,7 @@ const Register = () => {
 
 
       <div className="form-group">
-        <label for="exampleInputEmail1" style={{float: "left"}} >Email address</label>
+        <label for="exampleInputEmail1" style={{ float: "left" }} >Email address</label>
 
 
         <input
@@ -65,10 +65,10 @@ const Register = () => {
         />
 
       </div>
-
+      <br />
 
       <div className="form-group">
-        <label for="exampleInputPassword1" style={{float: "left"}}>Password</label>
+        <label for="exampleInputPassword1" style={{ float: "left" }}>Password</label>
 
         <input
           className="form-control"
@@ -85,10 +85,10 @@ const Register = () => {
 
 
 
+      <br />
 
 
-
-      <button  style={{marginRight: "290px"}} className="btn btn-danger "   type="submit" onClick={handleRegister}>
+      <button style={{ marginRight: "290px" }} className="btn btn-danger " type="submit" onClick={handleRegister}>
         Login
       </button>
 

@@ -37,6 +37,8 @@ const Profile = () => {
   return (
     <div>
 
+      
+
 
       <div className="container-fluid">
         <div className="row flex-nowrap">
@@ -132,6 +134,10 @@ const Profile = () => {
           <div className="col py-3">
             Content area...
           </div>
+
+
+
+          
         </div>
       </div>
 

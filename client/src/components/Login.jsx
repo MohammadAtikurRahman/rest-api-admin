@@ -62,7 +62,7 @@ const Login = () => {
 
       </div>
 
-
+<br />
       <div className="form-group">
         <label for="exampleInputPassword1" style={{float: "left"}}>Password</label>
 
@@ -80,7 +80,7 @@ const Login = () => {
       </div>
 
 
-
+<br />
 
 
 
